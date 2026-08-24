@@ -12,8 +12,8 @@ function createGrid(size) {
       event.target.classList.add('hovered');
     });
 
-    gridDiv.style.width = `${960 / size}px`;
-    gridDiv.style.height = `${960 / size}px`;
+    gridDiv.style.width = `${100 / size}%`;
+    gridDiv.style.height = `${100 / size}%`;
   }
 }
 createGrid(16);
