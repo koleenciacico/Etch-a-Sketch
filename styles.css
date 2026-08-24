@@ -1,3 +1,14 @@
+:root {
+  --primary-base-color: #fdf4d2;
+  --primary-btn-color: #946d6d;
+  --body-font: 'Google Sans Flex', sans-serif;
+}
+
+body {
+  background-color: var(--primary-base-color);
+  font-family: var(--body-font);
+}
+
 #parent-container {
   display: flex;
   flex-wrap: wrap;
@@ -12,4 +23,11 @@
 .hovered {
   background-color: #a290b7;
   transition: background-color 0.3s ease;
+}
+
+#new-grid-btn {
+  background-color: var(--primary-btn-color);
+  height: 5vmin;
+  width: 20vmin;
+  font-family: var(--body-font);
 }
