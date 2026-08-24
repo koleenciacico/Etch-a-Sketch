@@ -1,0 +1,11 @@
+#parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 704px;
+  height: 704px;
+}
+.gridDiv {
+  border: 2px solid rgb(0, 0, 0);
+  height: 40px;
+  width: 40px;
+}
