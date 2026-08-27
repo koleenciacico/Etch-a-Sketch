@@ -10,9 +10,9 @@ A browser-based drawing pad inspired by the classic Etch-a-Sketch toy — built 
 
 ## ✨ Preview
 
-> _Add a screenshot or GIF of your project here!_
-> `<img width="1033" height="887" alt="image" src="https://github.com/user-attachments/assets/b3ff2919-132c-4c4d-844a-6bcdb0d5a378" />
-`
+<img width="1033" height="887" alt="image" src="https://github.com/user-attachments/assets/b3ff2919-132c-4c4d-844a-6bcdb0d5a378" />
+<img width="912" height="882" alt="image" src="https://github.com/user-attachments/assets/67cb7fcf-002e-40c2-8cf4-2603cf714bb9" />
+
 
 ---
 
