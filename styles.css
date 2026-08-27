@@ -1,6 +1,9 @@
 :root {
-  --primary-base-color: #fdf4d2;
+  --primary-base-color: #ffedce;
   --primary-btn-color: #946d6d;
+  --font-color-btn: #fff2f2;
+  --primary-sketch-color: #a290b7;
+  --secondary-btn-color: #853953;
   --body-font: 'Google Sans Flex', sans-serif;
 }
 
@@ -14,6 +17,7 @@ body {
   flex-wrap: wrap;
   width: 80vmin;
   height: 80vmin;
+  margin: 0 auto;
 }
 .gridDiv {
   border: 2px solid rgb(0, 0, 0);
@@ -21,7 +25,7 @@ body {
 }
 
 .hovered {
-  background-color: #a290b7;
+  background-color: var(--primary-sketch-color);
   transition: background-color 0.3s ease;
 }
 
@@ -30,4 +34,39 @@ body {
   height: 5vmin;
   width: 20vmin;
   font-family: var(--body-font);
+  border-radius: 3vmin;
+  color: var(--font-color-btn);
+  padding: 0.5vmin 0.5vmin;
+  text-align: center;
+  border: 0px;
+  transition: transform 0.2s ease;
+  margin: 0.5vmin;
+}
+#new-grid-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 52px 3px rgba(154, 63, 63, 0.49);
+}
+
+#reset-grid-btn {
+  background-color: var(--secondary-btn-color);
+  height: 5vmin;
+  width: 20vmin;
+  font-family: var(--body-font);
+  border-radius: 3vmin;
+  color: var(--font-color-btn);
+  padding: 0.5vmin 0.5vmin;
+  text-align: center;
+  border: 0px;
+  transition: transform 0.2s ease;
+  margin: 0.5vmin;
+}
+
+#reset-grid-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 52px 3px rgba(154, 63, 63, 0.49);
+}
+
+.header-wrapper {
+  text-align: center;
+  margin: 2.5vmin;
 }

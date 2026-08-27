@@ -30,3 +30,12 @@ askGrid.addEventListener('click', () => {
     createGrid(resize);
   }
 });
+
+const resetGrid = document.getElementById('reset-grid-btn');
+resetGrid.addEventListener('click', () => {
+  const coloredSquares = document.querySelectorAll('.hovered');
+
+  coloredSquares.forEach((grid) => {
+    grid.classList.remove('hovered');
+  });
+});
