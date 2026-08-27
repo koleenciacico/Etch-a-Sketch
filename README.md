@@ -55,6 +55,7 @@ A browser-based drawing pad inspired by the classic Etch-a-Sketch toy — built 
 - [ ] Eraser tool
 - [ ] Click-and-drag drawing (instead of hover-only)
 
+## PS: WIP
 
 ---
 
